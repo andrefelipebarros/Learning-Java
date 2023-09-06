@@ -41,7 +41,9 @@ public class CatalogoLivro {
 
         livroListAndre.AdicionarLivro("INCRIVEL MUNDO DE GUMBALL", "Ben Bocquelet", 2011);
 
-        System.out.print(livroListAndre.NumeroDeLivros());
+        System.out.println(livroListAndre.NumeroDeLivros());
+
+        System.out.println(livroListAndre.pesquisarAutor("Ben Bocquelet"));
 
     }
 }

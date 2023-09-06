@@ -37,7 +37,7 @@ public class Livro {
 
     @Override
     public String toString(){
-        return titulo + ".  /" + autor + ".  /" + anoPublicado + ".  /";
+        return " / titulo: " + titulo + ".  / autor:" + autor + ".  / anoPublicado:" + anoPublicado + ".";
         //deixar detalhado: return "Tarefa{" + "descricao='" + descricao + "\'" + '}';
     }
 }
