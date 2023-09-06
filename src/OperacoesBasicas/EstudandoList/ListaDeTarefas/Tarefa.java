@@ -1,4 +1,4 @@
-package OperacoesBasicas.StudandoList.ListaDeTarefas;
+package OperacoesBasicas.EstudandoList.ListaDeTarefas;
 
 public class Tarefa {
     //atributo

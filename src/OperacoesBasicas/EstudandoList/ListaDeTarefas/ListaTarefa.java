@@ -1,4 +1,4 @@
-package OperacoesBasicas.StudandoList.ListaDeTarefas;
+package OperacoesBasicas.EstudandoList.ListaDeTarefas;
 
 import java.util.List;
 import java.util.ArrayList;
