@@ -1,4 +1,4 @@
-package OperacoesBasicas.CarrinhoDeCompras;
+package OperacoesBasicas.StudandoList.CarrinhoDeCompras;
 
 import java.util.ArrayList;
 import java.util.List;
