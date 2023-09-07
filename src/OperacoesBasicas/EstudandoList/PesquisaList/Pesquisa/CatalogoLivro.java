@@ -45,5 +45,8 @@ public class CatalogoLivro {
 
         System.out.println(livroListAndre.pesquisarAutor("Ben Bocquelet"));
 
+        livroListAndre.AdicionarLivro("livro 1", "Autor 4", 2011);
+        livroListAndre.AdicionarLivro("livro 2", "Autor 4", 2011);
+        System.out.println(livroListAndre.pesquisarAutor("Autor 4"));
     }
 }
