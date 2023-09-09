@@ -1,4 +1,4 @@
-package OperacoesBasicas.EstudandoList.PesquisaList.Pesquisa;
+package EstudandoList.PesquisaList.Pesquisa;
 
 public class Livro {
     String titulo;

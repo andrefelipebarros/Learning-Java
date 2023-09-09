@@ -1,4 +1,4 @@
-package OperacoesBasicas.EstudandoSet.OperacoesBasicas;
+package EstudandoSet.OperacoesBasicas;
 
 public class Convidado {
     private String nome;

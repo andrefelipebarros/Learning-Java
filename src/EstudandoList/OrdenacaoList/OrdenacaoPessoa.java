@@ -1,4 +1,4 @@
-package OperacoesBasicas.EstudandoList.OrdenacaoList;
+package EstudandoList.OrdenacaoList;
 
 import java.util.List;
 import java.util.ArrayList;
