@@ -14,7 +14,7 @@ public class CatalogoLivro {
     }
 
 
-    public void AdicionarLivro(String titulo, String autor, int anoPublicado){
+    public void adicionarLivro(String titulo, String autor, int anoPublicado){
         livroList.add(new Livro(titulo, autor, anoPublicado));
     }
 
@@ -30,7 +30,7 @@ public class CatalogoLivro {
         return AutorList;
     }
 
-    public int NumeroDeLivros(){
+    public int numeroDeLivros(){
         return livroList.size();
     }
 
@@ -39,14 +39,14 @@ public class CatalogoLivro {
         
         CatalogoLivro livroListAndre = new CatalogoLivro();
 
-        livroListAndre.AdicionarLivro("INCRIVEL MUNDO DE GUMBALL", "Ben Bocquelet", 2011);
+        livroListAndre.adicionarLivro("INCRIVEL MUNDO DE GUMBALL", "Ben Bocquelet", 2011);
 
-        System.out.println(livroListAndre.NumeroDeLivros());
+        System.out.println(livroListAndre.numeroDeLivros());
 
         System.out.println(livroListAndre.pesquisarAutor("Ben Bocquelet"));
 
-        livroListAndre.AdicionarLivro("livro 1", "Autor 4", 2011);
-        livroListAndre.AdicionarLivro("livro 2", "Autor 4", 2011);
+        livroListAndre.adicionarLivro("livro 1", "Autor 4", 2011);
+        livroListAndre.adicionarLivro("livro 2", "Autor 4", 2011);
         System.out.println(livroListAndre.pesquisarAutor("Autor 4"));
     }
 }

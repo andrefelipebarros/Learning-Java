@@ -12,7 +12,7 @@ public class ListaTarefa {
         this.tarefaList = new ArrayList<>();
     }
 
-    public void AdicionarTarefa(String descricao){
+    public void adicionarTarefa(String descricao){
         tarefaList.add(new Tarefa(descricao));
     }
 
@@ -42,8 +42,8 @@ public class ListaTarefa {
         System.out.println("O número máximo de elementos é: " + listaTarefaDoDede.obterNumeroTotalDeTarefas());
 
         //adicionando tarefa:
-        listaTarefaDoDede.AdicionarTarefa("Limpar a Casa");
-        listaTarefaDoDede.AdicionarTarefa("Estudar Java");
+        listaTarefaDoDede.adicionarTarefa("Limpar a Casa");
+        listaTarefaDoDede.adicionarTarefa("Estudar Java");
 
         // foi agregado duas tarefas:
         System.out.println("O número máximo de elementos é: " + listaTarefaDoDede.obterNumeroTotalDeTarefas());
