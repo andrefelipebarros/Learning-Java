@@ -13,19 +13,7 @@ public class Pessoa implements Comparable<Pessoa>{
         this.idade = idade;
         this.altura = altura;
     }
-        @Override
-        public String toString(){
-            //depois eu deixa bonitinho.
-            return nome + idade + altura;
-        }
-
-        @Override
-        public int compareTo(Pessoa p) { //normalmente é "o" de object mas nomiarei como p
-            return  Integer.compare(idade, p.getIdade()); //o compare já automaticamente compara dois inteiros.
-        }
-
-
-
+    
         public void setNome(String nome) {
             this.nome = nome;
         }
@@ -46,13 +34,24 @@ public class Pessoa implements Comparable<Pessoa>{
         }
         public String getNome() {
             return nome;
+        }        
+        
+        @Override
+        public String toString(){
+            //depois eu deixa bonitinho.
+            return  "Nome: " + nome + "Idade: " + idade + "Altura: " + altura + "/ ";
+        }
+
+        @Override
+        public int compareTo(Pessoa p) { //normalmente é "o" de object mas nomiarei como p
+            return  Integer.compare(idade, p.getIdade()); //o compare já automaticamente compara dois inteiros.
         }
 }
 
 //Tem que ser o uso fora da class Pessoa.
 class ComparatorPorAltura implements Comparator<Pessoa> {
 
-    @Override
+    @Override //"compare(Pessoa o1, Pessoa o2)" o de Objeto.
     public int compare(Pessoa o1, Pessoa o2) {
         return Double.compare(o1.getAltura(), o2.getAltura());
     }

@@ -30,4 +30,19 @@ public class OrdenacaoPessoa {
         Collections.sort(pessoaPorAltura, new ComparatorPorAltura());
         return pessoaPorAltura;
     }
+
+    public static void main(String[] args) {
+        OrdenacaoPessoa AndreList = new OrdenacaoPessoa();
+
+        AndreList.AdicionarPessoa("André", 19, 1.81);
+        AndreList.AdicionarPessoa("José", 28, 1.62);
+        AndreList.AdicionarPessoa("Jota", 12, 1.80);
+
+        System.out.println("ORDEM POR IDADE: ");
+        System.out.println(AndreList.OrdenadoPorIdade());
+        System.out.println(" ");
+        System.out.println("ORDEM POR ALTURA: ");
+        System.out.println(AndreList.ordenarPorAltura());
+
+    }
 }
