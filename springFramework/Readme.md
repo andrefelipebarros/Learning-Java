@@ -6,11 +6,11 @@ Este arquivo `README.md` fornece um guia passo a passo para começar com o Sprin
 
 Antes de começar, você deve ter o seguinte instalado em seu sistema:
 
-1. **Java Development Kit (JDK)**: O Spring Framework é baseado em Java, então você precisa do JDK instalado. Você pode verificar se o JDK está instalado executando o seguinte comando no terminal:
+    1. **Java Development Kit (JDK)**: O Spring Framework é baseado em Java, então você precisa do JDK instalado. Você pode verificar se o JDK está instalado executando o seguinte comando no terminal:
 
-   ```bash
-   java -version
-   
+    ```bash
+    java -version
+
 Se não estiver instalado, faça o download e instale a versão mais recente do JDK no site oficial da Oracle ou escolha uma distribuição do OpenJDK.
 
 Maven ou Gradle (opcional): Embora não seja estritamente necessário, é altamente recomendável ter uma ferramenta de gerenciamento de dependências como o Maven ou o Gradle instalado para facilitar a gestão das bibliotecas do Spring.
@@ -43,19 +43,17 @@ Para executar seu aplicativo Spring, siga estas etapas:
 
 Certifique-se de que todas as dependências estejam resolvidas. Você pode usar o Maven ou o Gradle para isso.
 
-bash
-Copy code
 # Maven
-mvn clean install
+    mvn clean install
 
 # Gradle
-gradle clean build
+    gradle clean build
 Inicie o aplicativo Spring. A forma mais comum é usar o comando java -jar:
 
-bash
-Copy code
-java -jar seu-aplicativo.jar
-Substitua seu-aplicativo.jar pelo nome do arquivo JAR gerado pelo seu projeto.
+    bash
+    Copy code
+    java -jar seu-aplicativo.jar
+    Substitua seu-aplicativo.jar pelo nome do arquivo JAR gerado pelo seu projeto.
 
 Seu aplicativo deve estar disponível em http://localhost:8080 (a menos que você tenha configurado uma porta diferente).
 
@@ -72,8 +70,5 @@ Spring Boot Documentation: Documentação oficial do Spring Boot.
 Spring Framework GitHub Repository: Repositório oficial do Spring Framework no GitHub.
 Spring Community: Comunidade Spring para obter suporte e informações adicionais.
 Agora você está pronto para começar a explorar e desenvolver aplicativos incríveis com o Spring Framework! Boa sorte em sua jornada de desenvolvimento!
-
-javascript
-Copy code
 
 Você pode copiar e colar o conteúdo acima em um arquivo `README.md` no seu repositório do GitHub para fornecer informações detalhadas sobre como começar co
