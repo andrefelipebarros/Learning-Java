@@ -36,14 +36,16 @@ Abordagem 2: Usando uma IDE
 Se preferir, você também pode criar um projeto Spring diretamente em sua IDE. A maioria das IDEs modernas tem suporte para a criação de projetos Spring.
 
     Passo 3: Desenvolver seu Aplicativo Spring
-    Agora que você tem um projeto Spring configurado, você pode começar a desenvolver seu aplicativo. Aqui estão algumas tarefas comuns:
+    Agora que você tem um projeto Spring configurado, você pode começar a desenvolver seu aplicativo. 
+    Aqui estão algumas tarefas comuns:
 
 Defina classes de modelo para representar seus dados.
 Crie controladores para lidar com solicitações HTTP.
 Configure beans Spring usando anotações, como @Service, @Repository e @Component.
 Implemente a lógica de negócios do seu aplicativo.
-Passo 4: Executar seu Aplicativo Spring
-Para executar seu aplicativo Spring, siga estas etapas:
+
+    Passo 4: Executar seu Aplicativo Spring
+    Para executar seu aplicativo Spring, siga estas etapas:
 
 Certifique-se de que todas as dependências estejam resolvidas. Você pode usar o Maven ou o Gradle para isso.
 
