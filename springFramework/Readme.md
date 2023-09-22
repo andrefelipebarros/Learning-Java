@@ -16,13 +16,14 @@ Se não estiver instalado, faça o download e instale a versão mais recente do 
 ## Maven ou Gradle (opcional): 
 
 Embora não seja estritamente necessário, é altamente recomendável ter uma ferramenta de gerenciamento de dependências como o Maven ou o Gradle instalado para facilitar a gestão das bibliotecas do Spring.
-Passo 1: Configurar o Ambiente de Desenvolvimento
-Certifique-se de que seu ambiente de desenvolvimento esteja configurado corretamente:
+    Passo 1: Configurar o Ambiente de Desenvolvimento
+    Certifique-se de que seu ambiente de desenvolvimento esteja configurado corretamente:
 
 Configure as variáveis de ambiente JAVA_HOME e PATH para apontar para o diretório de instalação do JDK.
 Instale uma IDE de sua escolha, como o Eclipse, IntelliJ IDEA ou Spring Tool Suite, que oferecem suporte ao desenvolvimento Spring.
-Passo 2: Criar um Projeto Spring
-Você pode criar um projeto Spring usando uma das seguintes abordagens:
+
+    Passo 2: Criar um Projeto Spring
+    Você pode criar um projeto Spring usando uma das seguintes abordagens:
 
 Abordagem 1: Usando Spring Initializr (Recomendado)
 O Spring Initializr é uma ferramenta online que simplifica a criação de projetos Spring. Siga estas etapas:
@@ -33,8 +34,8 @@ Clique em "Generate" para baixar um arquivo ZIP contendo o projeto inicializado.
 Abordagem 2: Usando uma IDE
 Se preferir, você também pode criar um projeto Spring diretamente em sua IDE. A maioria das IDEs modernas tem suporte para a criação de projetos Spring.
 
-Passo 3: Desenvolver seu Aplicativo Spring
-Agora que você tem um projeto Spring configurado, você pode começar a desenvolver seu aplicativo. Aqui estão algumas tarefas comuns:
+    Passo 3: Desenvolver seu Aplicativo Spring
+    Agora que você tem um projeto Spring configurado, você pode começar a desenvolver seu aplicativo. Aqui estão algumas tarefas comuns:
 
 Defina classes de modelo para representar seus dados.
 Crie controladores para lidar com solicitações HTTP.
