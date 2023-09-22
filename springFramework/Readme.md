@@ -13,7 +13,9 @@ Antes de começar, você deve ter o seguinte instalado em seu sistema:
 
 Se não estiver instalado, faça o download e instale a versão mais recente do JDK no site oficial da Oracle ou escolha uma distribuição do OpenJDK.
 
-Maven ou Gradle (opcional): Embora não seja estritamente necessário, é altamente recomendável ter uma ferramenta de gerenciamento de dependências como o Maven ou o Gradle instalado para facilitar a gestão das bibliotecas do Spring.
+## Maven ou Gradle (opcional): 
+
+Embora não seja estritamente necessário, é altamente recomendável ter uma ferramenta de gerenciamento de dependências como o Maven ou o Gradle instalado para facilitar a gestão das bibliotecas do Spring.
 Passo 1: Configurar o Ambiente de Desenvolvimento
 Certifique-se de que seu ambiente de desenvolvimento esteja configurado corretamente:
 
