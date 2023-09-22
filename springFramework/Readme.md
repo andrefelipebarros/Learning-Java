@@ -73,6 +73,3 @@ Documentação Oficial do Spring: Guia completo de referência e tutoriais.
 Spring Boot Documentation: Documentação oficial do Spring Boot.
 Spring Framework GitHub Repository: Repositório oficial do Spring Framework no GitHub.
 Spring Community: Comunidade Spring para obter suporte e informações adicionais.
-Agora você está pronto para começar a explorar e desenvolver aplicativos incríveis com o Spring Framework! Boa sorte em sua jornada de desenvolvimento!
-
-Você pode copiar e colar o conteúdo acima em um arquivo `README.md` no seu repositório do GitHub para fornecer informações detalhadas sobre como começar co
