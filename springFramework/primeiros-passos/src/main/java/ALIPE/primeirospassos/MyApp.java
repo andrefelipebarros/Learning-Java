@@ -22,6 +22,4 @@ public class MyApp implements CommandLineRunner {
         mundo.Hello();
     }
 
-    
-
 }
