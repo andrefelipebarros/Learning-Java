@@ -20,7 +20,7 @@ Este repositório contém anotações, códigos e projetos que desenvolvi enquan
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/learning-java.git
+   git clone https://github.com/andrefelipebarros/Learning-Java.git
    ```
 2. Navegue até o diretório do projeto:
    ```sh
